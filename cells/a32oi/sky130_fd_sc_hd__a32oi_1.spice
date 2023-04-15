@@ -16,14 +16,14 @@
 
 
 .subckt sky130_fd_sc_hd__a32oi_1 A1 A2 A3 B1 B2 VGND VNB VPB VPWR Y
-X0 a_27_297# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X0 a_27_297# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X1 a_309_47# A2 a_383_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X2 a_27_297# A3 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 a_27_297# A3 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X3 a_109_47# B1 Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X4 VPWR A2 a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 VPWR A2 a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X5 a_383_47# A3 VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X6 Y A1 a_309_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X7 VGND B2 a_109_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X8 a_27_297# B2 Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X9 Y B1 a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X8 a_27_297# B2 Y VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X9 Y B1 a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 .ends

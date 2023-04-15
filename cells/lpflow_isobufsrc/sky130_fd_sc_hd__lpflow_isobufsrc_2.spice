@@ -17,11 +17,11 @@
 
 .subckt sky130_fd_sc_hd__lpflow_isobufsrc_2 A SLEEP VGND VNB VPB VPWR X
 X0 X a_251_21# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X1 VPWR SLEEP a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X2 X a_251_21# a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 VPWR SLEEP a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X2 X a_251_21# a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X3 VGND a_251_21# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X4 a_27_297# a_251_21# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X5 a_27_297# SLEEP VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 a_27_297# a_251_21# X VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X5 a_27_297# SLEEP VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X6 VGND SLEEP X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X7 a_251_21# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X8 X SLEEP VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u

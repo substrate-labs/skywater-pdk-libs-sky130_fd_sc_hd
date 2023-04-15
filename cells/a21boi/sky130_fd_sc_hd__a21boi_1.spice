@@ -18,10 +18,10 @@
 .subckt sky130_fd_sc_hd__a21boi_1 A1 A2 B1_N VGND VNB VPB VPWR Y
 X0 a_384_47# A2 VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X1 VGND a_27_413# Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X2 a_300_297# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X3 Y a_27_413# a_300_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 a_300_297# A1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X3 Y a_27_413# a_300_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X4 a_27_413# B1_N VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X5 Y A1 a_384_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X6 a_27_413# B1_N VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
-X7 VPWR A2 a_300_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 VPWR A2 a_300_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 .ends

@@ -21,5 +21,5 @@ X1 VGND a_68_297# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X2 VGND A a_68_297# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X3 a_68_297# SLEEP VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X4 a_68_297# A a_150_297# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
-X5 VPWR a_68_297# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 VPWR a_68_297# X VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 .ends
