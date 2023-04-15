@@ -16,24 +16,24 @@
 
 
 .subckt sky130_fd_sc_hd__nor4bb_2 A B C_N D_N VGND VNB VPB VPWR Y
-X0 a_776_297# B a_418_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X1 a_336_297# a_201_93# a_418_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X2 a_336_297# a_27_410# Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X0 a_776_297# B a_418_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X1 a_336_297# a_201_93# a_418_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X2 a_336_297# a_27_410# Y VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X3 Y B VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X4 a_27_410# D_N VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X5 VGND a_201_93# Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X6 VPWR A a_776_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X7 a_418_297# a_201_93# a_336_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 VPWR A a_776_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
+X7 a_418_297# a_201_93# a_336_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X8 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X9 Y a_27_410# a_336_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X9 Y a_27_410# a_336_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X10 Y a_27_410# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X11 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X12 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X13 VGND a_27_410# Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X14 VPWR C_N a_201_93# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
-X15 a_776_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X15 a_776_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X16 Y a_201_93# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X17 VGND C_N a_201_93# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X18 a_27_410# D_N VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
-X19 a_418_297# B a_776_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X19 a_418_297# B a_776_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 .ends

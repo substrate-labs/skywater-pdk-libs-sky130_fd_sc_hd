@@ -16,6 +16,6 @@
 
 
 .subckt sky130_fd_sc_hd__lpflow_decapkapwr_12 KAPWR VGND VNB VPB VPWR
-X0 KAPWR VGND KAPWR VPB sky130_fd_pr__pfet_01v8_hvt w=870000u l=4.73e+06u
-X1 VGND KAPWR VGND VNB sky130_fd_pr__nfet_01v8 w=550000u l=4.73e+06u
+X0 KAPWR VGND KAPWR VPB sky130_fd_pr__pfet_01v8_hvt w=870000u l=4.73
+X1 VGND KAPWR VGND VNB sky130_fd_pr__nfet_01v8 w=550000u l=4.73
 .ends

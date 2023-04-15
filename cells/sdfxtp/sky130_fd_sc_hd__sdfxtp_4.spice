@@ -16,17 +16,17 @@
 
 
 .subckt sky130_fd_sc_hd__sdfxtp_4 CLK D SCD SCE VGND VNB VPB VPWR Q
-X0 Q a_1527_315# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X0 Q a_1527_315# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X1 Q a_1527_315# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X2 a_560_369# a_299_47# a_644_369# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
 X3 a_1033_413# a_1099_183# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
-X4 VPWR a_1527_315# Q VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 VPWR a_1527_315# Q VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X5 a_27_47# CLK VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
-X6 VPWR a_1527_315# Q VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 VPWR a_1527_315# Q VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X7 a_1527_315# a_1356_413# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X8 a_466_369# D a_560_369# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
 X9 a_1099_183# a_27_47# a_1356_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
-X10 a_1527_315# a_1356_413# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X10 a_1527_315# a_1356_413# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X11 Q a_1527_315# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X12 VPWR SCE a_466_369# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
 X13 a_560_369# SCE a_661_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
@@ -37,7 +37,7 @@ X17 a_299_47# SCE VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
 X18 a_487_47# D a_560_369# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X19 a_560_369# a_193_47# a_940_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X20 VGND a_940_413# a_1099_183# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
-X21 Q a_1527_315# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X21 Q a_1527_315# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1 l=150000u
 X22 VPWR a_940_413# a_1099_183# VPB sky130_fd_pr__pfet_01v8_hvt w=750000u l=150000u
 X23 a_1037_47# a_1099_183# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X24 a_644_369# SCD VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
