@@ -16,5 +16,5 @@
 
 
 .subckt sky130_fd_sc_hd__diode_2 DIODE VGND VNB VPB VPWR
-X0 VNB DIODE sky130_fd_pr__diode_pw2nd p=5.36 a=4.347e+11p
+X0 VNB DIODE sky130_fd_pr__diode_pw2nd p=5.36 a=0.4347
 .ends
